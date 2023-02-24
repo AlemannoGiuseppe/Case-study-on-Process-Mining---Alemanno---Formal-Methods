@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="splace_in_Entrance_Entrance_0">
+        <name>
+          <text>splace_in_Entrance_Entrance_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Kitchen_Kitchen_0">
+        <name>
+          <text>splace_in_Kitchen_Kitchen_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Living_Kitchen_0">
+        <name>
+          <text>splace_in_Living_Kitchen_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Kitchen_Entrance_0">
+        <name>
+          <text>splace_in_Kitchen_Entrance_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Living_Entrance_0">
+        <name>
+          <text>splace_in_Living_Entrance_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Bathroom_Bathroom_0">
+        <name>
+          <text>splace_in_Bathroom_Bathroom_0</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="splace_in_Entrance_Bathroom_0">
+        <name>
+          <text>splace_in_Entrance_Bathroom_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Kitchen_Bathroom_0">
+        <name>
+          <text>splace_in_Kitchen_Bathroom_0</text>
+        </name>
+      </place>
+      <place id="intplace_Bathroom">
+        <name>
+          <text>intplace_Bathroom</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="splace_in_Bathroom_Bedroom_0">
+        <name>
+          <text>splace_in_Bathroom_Bedroom_0</text>
+        </name>
+      </place>
+      <place id="intplace_Living">
+        <name>
+          <text>intplace_Living</text>
+        </name>
+      </place>
+      <transition id="Bathroom">
+        <name>
+          <text>Bathroom</text>
+        </name>
+      </transition>
+      <transition id="Entrance">
+        <name>
+          <text>Entrance</text>
+        </name>
+      </transition>
+      <transition id="Living">
+        <name>
+          <text>Living</text>
+        </name>
+      </transition>
+      <transition id="Kitchen">
+        <name>
+          <text>Kitchen</text>
+        </name>
+      </transition>
+      <transition id="Bedroom">
+        <name>
+          <text>Bedroom</text>
+        </name>
+      </transition>
+      <transition id="hid_5">
+        <name>
+          <text>hid_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6925c67d-512b-49a5-9caf-1f6539a54bc0"/>
+      </transition>
+      <transition id="hid_7">
+        <name>
+          <text>hid_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="99c4c233-0203-457f-a8ad-6194cb08019b"/>
+      </transition>
+      <transition id="hid_13">
+        <name>
+          <text>hid_13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7c016641-52a3-4090-a75c-4d87dbe235ee"/>
+      </transition>
+      <arc id="2753943785168" source="Entrance" target="splace_in_Entrance_Entrance_0"/>
+      <arc id="2753943791760" source="splace_in_Kitchen_Bathroom_0" target="Kitchen"/>
+      <arc id="2753943794320" source="splace_in_Kitchen_Entrance_0" target="Kitchen"/>
+      <arc id="2753943794064" source="splace_in_Kitchen_Kitchen_0" target="Kitchen"/>
+      <arc id="2753943796624" source="splace_in_Entrance_Entrance_0" target="Entrance"/>
+      <arc id="2753943789840" source="splace_in_Entrance_Bathroom_0" target="Entrance"/>
+      <arc id="2753945099664" source="source0" target="Bedroom"/>
+      <arc id="2753945092304" source="intplace_Bathroom" target="hid_5"/>
+      <arc id="2753945092176" source="hid_5" target="splace_in_Kitchen_Bathroom_0"/>
+      <arc id="2753943789904" source="intplace_Living" target="Bathroom"/>
+      <arc id="2753943785552" source="intplace_Living" target="hid_13"/>
+      <arc id="2753943789776" source="Entrance" target="splace_in_Living_Entrance_0"/>
+      <arc id="2753945092688" source="Bathroom" target="intplace_Bathroom"/>
+      <arc id="2753943792272" source="Bedroom" target="splace_in_Bathroom_Bedroom_0"/>
+      <arc id="2753945107216" source="hid_7" target="sink0"/>
+      <arc id="2753943788304" source="splace_in_Living_Kitchen_0" target="Living"/>
+      <arc id="2753943790416" source="Kitchen" target="splace_in_Kitchen_Kitchen_0"/>
+      <arc id="2753945107344" source="intplace_Bathroom" target="hid_7"/>
+      <arc id="2753943784720" source="splace_in_Bathroom_Bedroom_0" target="Bathroom"/>
+      <arc id="2753945108240" source="hid_5" target="splace_in_Entrance_Bathroom_0"/>
+      <arc id="2753945108368" source="hid_5" target="splace_in_Bathroom_Bathroom_0"/>
+      <arc id="2753943790288" source="splace_in_Bathroom_Bathroom_0" target="Bathroom"/>
+      <arc id="2753943797456" source="splace_in_Living_Entrance_0" target="Living"/>
+      <arc id="2753943791952" source="Living" target="intplace_Living"/>
+      <arc id="2753943794192" source="Entrance" target="splace_in_Kitchen_Entrance_0"/>
+      <arc id="2753943792592" source="hid_13" target="sink0"/>
+      <arc id="2753943784912" source="Kitchen" target="splace_in_Living_Kitchen_0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

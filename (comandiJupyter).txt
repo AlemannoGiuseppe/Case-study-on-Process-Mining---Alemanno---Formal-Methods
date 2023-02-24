@@ -1,0 +1,22 @@
+jupyter notebook and the program will instantiate a local server at localhost:8888 
+(or another specified port).
+A browser window should immediately pop up
+
+To stop the server and shutdown the kernel from the terminal, 
+hit control-C twice.
+
+useful commands:
+
+conda create -n myenv python=3.11
+
+conda activate myenv
+
+pip install jupyter
+pip install pandoc
+
+jupyter notebook
+
+conda install -c conda-forge pandoc
+
+C:\Users\Giuseppe\AppData\Local\Programs\MiKTeX
+

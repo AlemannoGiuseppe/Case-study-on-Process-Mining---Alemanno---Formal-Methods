@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="intplace_Shower">
+        <name>
+          <text>intplace_Shower</text>
+        </name>
+      </place>
+      <place id="pre_Toilet">
+        <name>
+          <text>pre_Toilet</text>
+        </name>
+      </place>
+      <place id="pre_Cabinet">
+        <name>
+          <text>pre_Cabinet</text>
+        </name>
+      </place>
+      <place id="pre_Basin">
+        <name>
+          <text>pre_Basin</text>
+        </name>
+      </place>
+      <place id="intplace_Toilet">
+        <name>
+          <text>intplace_Toilet</text>
+        </name>
+      </place>
+      <place id="pre_Shower">
+        <name>
+          <text>pre_Shower</text>
+        </name>
+      </place>
+      <place id="intplace_Cabinet">
+        <name>
+          <text>intplace_Cabinet</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="intplace_Basin">
+        <name>
+          <text>intplace_Basin</text>
+        </name>
+      </place>
+      <transition id="hid_14">
+        <name>
+          <text>hid_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b9cce9b8-61d1-42eb-8ff3-1c070fe26197"/>
+      </transition>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="479abb56-b67f-4fdc-92c1-bece1ed77481"/>
+      </transition>
+      <transition id="Cabinet">
+        <name>
+          <text>Cabinet</text>
+        </name>
+      </transition>
+      <transition id="Toilet">
+        <name>
+          <text>Toilet</text>
+        </name>
+      </transition>
+      <transition id="Basin">
+        <name>
+          <text>Basin</text>
+        </name>
+      </transition>
+      <transition id="Shower">
+        <name>
+          <text>Shower</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dabd5b50-6b71-4498-8e6e-45cddc847c38"/>
+      </transition>
+      <transition id="hid_25">
+        <name>
+          <text>hid_25</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a35f1bbd-b8c1-4e61-ae5e-5f0b871cee30"/>
+      </transition>
+      <transition id="hid_22">
+        <name>
+          <text>hid_22</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="959f61b6-1665-416e-b392-f46d1af6dde5"/>
+      </transition>
+      <transition id="hid_28">
+        <name>
+          <text>hid_28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="44f4efc8-b236-464d-b09c-fcbe8ca7c3ac"/>
+      </transition>
+      <transition id="hid_18">
+        <name>
+          <text>hid_18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9fd8ffe4-d94c-41de-92d2-b537c9ba3793"/>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4136d954-4563-467d-a6b0-1f45cf5a00c2"/>
+      </transition>
+      <transition id="hid_17">
+        <name>
+          <text>hid_17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4dd06c75-bbb8-4479-8190-5ec5950d179c"/>
+      </transition>
+      <transition id="hid_19">
+        <name>
+          <text>hid_19</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a66de045-3428-4cce-9c22-6fb2a334a5ab"/>
+      </transition>
+      <transition id="hid_20">
+        <name>
+          <text>hid_20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7797deb4-3972-43ef-86a2-b332390f4f1e"/>
+      </transition>
+      <transition id="hid_27">
+        <name>
+          <text>hid_27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="db275f88-e526-498f-a18d-054504c95eb3"/>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f8e6d4f2-c3f0-4057-abaa-99d6a622c744"/>
+      </transition>
+      <transition id="hid_9">
+        <name>
+          <text>hid_9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="98bdda60-e551-4051-84cc-ff84df992539"/>
+      </transition>
+      <transition id="hid_24">
+        <name>
+          <text>hid_24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8cb140b6-a40b-4bbc-945d-cbaf9c8c1b05"/>
+      </transition>
+      <transition id="hid_21">
+        <name>
+          <text>hid_21</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="27f1f17d-612b-4f01-ae0d-428e00d7cfd3"/>
+      </transition>
+      <arc id="2753939500624" source="hid_18" target="pre_Basin"/>
+      <arc id="2753939498640" source="intplace_Basin" target="hid_21"/>
+      <arc id="2753939496784" source="Basin" target="intplace_Basin"/>
+      <arc id="2753939495312" source="hid_23" target="pre_Basin"/>
+      <arc id="2753939497616" source="hid_24" target="pre_Cabinet"/>
+      <arc id="2753939437712" source="source0" target="hid_4"/>
+      <arc id="2753939504400" source="hid_19" target="pre_Cabinet"/>
+      <arc id="2753900685456" source="pre_Shower" target="Shower"/>
+      <arc id="2753936316816" source="hid_9" target="pre_Basin"/>
+      <arc id="2753939493008" source="intplace_Toilet" target="hid_27"/>
+      <arc id="2753939501392" source="hid_27" target="pre_Toilet"/>
+      <arc id="2753939489360" source="intplace_Basin" target="hid_19"/>
+      <arc id="2753939503888" source="intplace_Basin" target="hid_20"/>
+      <arc id="2753939493712" source="hid_14" target="pre_Toilet"/>
+      <arc id="2753539554448" source="source0" target="hid_9"/>
+      <arc id="2753939488848" source="intplace_Basin" target="hid_18"/>
+      <arc id="2753939504528" source="intplace_Toilet" target="hid_28"/>
+      <arc id="2753939494352" source="intplace_Shower" target="hid_23"/>
+      <arc id="2753939496720" source="intplace_Cabinet" target="hid_15"/>
+      <arc id="2753939500816" source="hid_22" target="sink0"/>
+      <arc id="2753939500944" source="source0" target="hid_14"/>
+      <arc id="2753939503056" source="intplace_Toilet" target="hid_2"/>
+      <arc id="2753939496400" source="intplace_Cabinet" target="hid_2"/>
+      <arc id="2753939434320" source="pre_Cabinet" target="Cabinet"/>
+      <arc id="2753939432400" source="hid_2" target="pre_Cabinet"/>
+      <arc id="2753939502288" source="hid_15" target="pre_Basin"/>
+      <arc id="2753939433168" source="hid_4" target="pre_Cabinet"/>
+      <arc id="2753899093328" source="pre_Basin" target="Basin"/>
+      <arc id="2753939492304" source="hid_20" target="pre_Shower"/>
+      <arc id="2753939494864" source="hid_25" target="pre_Basin"/>
+      <arc id="2753939504976" source="hid_17" target="pre_Shower"/>
+      <arc id="2753939492944" source="intplace_Basin" target="hid_22"/>
+      <arc id="2753939493264" source="Cabinet" target="intplace_Cabinet"/>
+      <arc id="2753939491280" source="Shower" target="intplace_Shower"/>
+      <arc id="2753939497360" source="intplace_Toilet" target="hid_25"/>
+      <arc id="2753939503824" source="hid_21" target="pre_Toilet"/>
+      <arc id="2753939497744" source="Toilet" target="intplace_Toilet"/>
+      <arc id="2753939503952" source="intplace_Shower" target="hid_24"/>
+      <arc id="2753939563408" source="pre_Toilet" target="Toilet"/>
+      <arc id="2753939497872" source="intplace_Cabinet" target="hid_17"/>
+      <arc id="2753939489680" source="hid_28" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

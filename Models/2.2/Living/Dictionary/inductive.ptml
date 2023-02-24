@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ptml>
+  <processTree name="e4dbe7d2-111f-42b6-922d-548d4c31ed87" root="682bd72e-3bab-41cc-9ae4-28c2cc524d80" id="5243c73b-b01a-4e42-80f2-b20f7d55b8b1">
+    <xorLoop name="" id="682bd72e-3bab-41cc-9ae4-28c2cc524d80"/>
+    <manualTask name="Seat" id="f906de31-3341-449a-a6cc-7ec0383aaf8c"/>
+    <automaticTask name="" id="34716e62-632c-4ebf-a9eb-1d041771505c"/>
+    <automaticTask name="" id="f4f07c42-4a59-4438-be3c-c81698215aab"/>
+    <parentsNode id="2567bb29-7dfe-41e3-9359-4ba8035ad0dd" sourceId="682bd72e-3bab-41cc-9ae4-28c2cc524d80" targetId="f906de31-3341-449a-a6cc-7ec0383aaf8c"/>
+    <parentsNode id="3c2f5ccc-fd5d-4289-888a-4620e71817dd" sourceId="682bd72e-3bab-41cc-9ae4-28c2cc524d80" targetId="34716e62-632c-4ebf-a9eb-1d041771505c"/>
+    <parentsNode id="283a741a-d757-4977-80fe-b0c5d48ac624" sourceId="682bd72e-3bab-41cc-9ae4-28c2cc524d80" targetId="f4f07c42-4a59-4438-be3c-c81698215aab"/>
+  </processTree>
+</ptml>

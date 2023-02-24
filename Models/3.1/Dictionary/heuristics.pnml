@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_Showering">
+        <name>
+          <text>pre_Showering</text>
+        </name>
+      </place>
+      <place id="intplace_Spare_Time/TV">
+        <name>
+          <text>intplace_Spare_Time/TV</text>
+        </name>
+      </place>
+      <place id="intplace_Sleeping">
+        <name>
+          <text>intplace_Sleeping</text>
+        </name>
+      </place>
+      <place id="splace_in_Toilet_Sleeping_0">
+        <name>
+          <text>splace_in_Toilet_Sleeping_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Seat_Toilet_0">
+        <name>
+          <text>splace_in_Seat_Toilet_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Seat_Fridge_0">
+        <name>
+          <text>splace_in_Seat_Fridge_0</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="splace_in_Basin_Cabinet_0">
+        <name>
+          <text>splace_in_Basin_Cabinet_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Basin_Spare_Time/TV_0">
+        <name>
+          <text>splace_in_Basin_Spare_Time/TV_0</text>
+        </name>
+      </place>
+      <place id="pre_Grooming">
+        <name>
+          <text>pre_Grooming</text>
+        </name>
+      </place>
+      <place id="splace_in_Seat_Basin_0">
+        <name>
+          <text>splace_in_Seat_Basin_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Seat_Maindoor_0">
+        <name>
+          <text>splace_in_Seat_Maindoor_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Seat_Breakfast_0">
+        <name>
+          <text>splace_in_Seat_Breakfast_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Maindoor_Toileting_0">
+        <name>
+          <text>splace_in_Maindoor_Toileting_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Cupboard_Cupboard_0">
+        <name>
+          <text>splace_in_Cupboard_Cupboard_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Fridge_Maindoor_0">
+        <name>
+          <text>splace_in_Fridge_Maindoor_0</text>
+        </name>
+      </place>
+      <place id="pre_Cooktop">
+        <name>
+          <text>pre_Cooktop</text>
+        </name>
+      </place>
+      <place id="splace_in_Cupboard_Spare_Time/TV_0">
+        <name>
+          <text>splace_in_Cupboard_Spare_Time/TV_0</text>
+        </name>
+      </place>
+      <place id="pre_Toaster">
+        <name>
+          <text>pre_Toaster</text>
+        </name>
+      </place>
+      <place id="intplace_Toileting">
+        <name>
+          <text>intplace_Toileting</text>
+        </name>
+      </place>
+      <place id="splace_in_Seat_Microwave_0">
+        <name>
+          <text>splace_in_Seat_Microwave_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Spare_Time/TV_Snack_0">
+        <name>
+          <text>splace_in_Spare_Time/TV_Snack_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Spare_Time/TV_Seat_0">
+        <name>
+          <text>splace_in_Spare_Time/TV_Seat_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Fridge_Showering_0">
+        <name>
+          <text>splace_in_Fridge_Showering_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Toilet_Spare_Time/TV_0">
+        <name>
+          <text>splace_in_Toilet_Spare_Time/TV_0</text>
+        </name>
+      </place>
+      <place id="pre_Lunch">
+        <name>
+          <text>pre_Lunch</text>
+        </name>
+      </place>
+      <place id="intplace_Basin">
+        <name>
+          <text>intplace_Basin</text>
+        </name>
+      </place>
+      <place id="splace_in_Spare_Time/TV_Grooming_0">
+        <name>
+          <text>splace_in_Spare_Time/TV_Grooming_0</text>
+        </name>
+      </place>
+      <place id="pre_Microwave">
+        <name>
+          <text>pre_Microwave</text>
+        </name>
+      </place>
+      <place id="intplace_Grooming">
+        <name>
+          <text>intplace_Grooming</text>
+        </name>
+      </place>
+      <place id="splace_in_Shower_Basin_0">
+        <name>
+          <text>splace_in_Shower_Basin_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Shower_Grooming_0">
+        <name>
+          <text>splace_in_Shower_Grooming_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Shower_Cabinet_0">
+        <name>
+          <text>splace_in_Shower_Cabinet_0</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="splace_in_Shower_Toilet_0">
+        <name>
+          <text>splace_in_Shower_Toilet_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Maindoor_Grooming_0">
+        <name>
+          <text>splace_in_Maindoor_Grooming_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Maindoor_Spare_Time/TV_0">
+        <name>
+          <text>splace_in_Maindoor_Spare_Time/TV_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Cabinet_Toilet_0">
+        <name>
+          <text>splace_in_Cabinet_Toilet_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Cabinet_Toileting_0">
+        <name>
+          <text>splace_in_Cabinet_Toileting_0</text>
+        </name>
+      </place>
+      <place id="pre_Sleeping">
+        <name>
+          <text>pre_Sleeping</text>
+        </name>
+      </place>
+      <place id="splace_in_Cupboard_Toaster_0">
+        <name>
+          <text>splace_in_Cupboard_Toaster_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Cupboard_Showering_0">
+        <name>
+          <text>splace_in_Cupboard_Showering_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Fridge_Spare_Time/TV_0">
+        <name>
+          <text>splace_in_Fridge_Spare_Time/TV_0</text>
+        </name>
+      </place>
+      <place id="pre_Toileting">
+        <name>
+          <text>pre_Toileting</text>
+        </name>
+      </place>
+      <place id="splace_in_Fridge_Fridge_0">
+        <name>
+          <text>splace_in_Fridge_Fridge_0</text>
+        </name>
+      </place>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bdc98152-0a54-4863-a2cf-68a267f37c31"/>
+      </transition>
+      <transition id="Cabinet">
+        <name>
+          <text>Cabinet</text>
+        </name>
+      </transition>
+      <transition id="Toaster">
+        <name>
+          <text>Toaster</text>
+        </name>
+      </transition>
+      <transition id="Fridge">
+        <name>
+          <text>Fridge</text>
+        </name>
+      </transition>
+      <transition id="Basin">
+        <name>
+          <text>Basin</text>
+        </name>
+      </transition>
+      <transition id="Seat">
+        <name>
+          <text>Seat</text>
+        </name>
+      </transition>
+      <transition id="Spare_Time/TV">
+        <name>
+          <text>Spare_Time/TV</text>
+        </name>
+      </transition>
+      <transition id="Bed">
+        <name>
+          <text>Bed</text>
+        </name>
+      </transition>
+      <transition id="Toilet">
+        <name>
+          <text>Toilet</text>
+        </name>
+      </transition>
+      <transition id="Breakfast">
+        <name>
+          <text>Breakfast</text>
+        </name>
+      </transition>
+      <transition id="Microwave">
+        <name>
+          <text>Microwave</text>
+        </name>
+      </transition>
+      <transition id="hid_10">
+        <name>
+          <text>hid_10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7da6a3c7-0f1f-420c-9c24-daf53873a374"/>
+      </transition>
+      <transition id="hid_18">
+        <name>
+          <text>hid_18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="76a37123-7034-478e-bc94-117ec1ea5429"/>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a6c74882-7998-4d7b-8756-f701f7c5c184"/>
+      </transition>
+      <transition id="hid_27">
+        <name>
+          <text>hid_27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b2b5cd9a-d053-43b9-9dc3-2b715dcc4bd0"/>
+      </transition>
+      <transition id="hid_13">
+        <name>
+          <text>hid_13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b1372ac5-9cb8-4755-a087-968cf20b7300"/>
+      </transition>
+      <transition id="Cupboard">
+        <name>
+          <text>Cupboard</text>
+        </name>
+      </transition>
+      <transition id="Cooktop">
+        <name>
+          <text>Cooktop</text>
+        </name>
+      </transition>
+      <transition id="Toileting">
+        <name>
+          <text>Toileting</text>
+        </name>
+      </transition>
+      <transition id="Grooming">
+        <name>
+          <text>Grooming</text>
+        </name>
+      </transition>
+      <transition id="Maindoor">
+        <name>
+          <text>Maindoor</text>
+        </name>
+      </transition>
+      <transition id="Shower">
+        <name>
+          <text>Shower</text>
+        </name>
+      </transition>
+      <transition id="Showering">
+        <name>
+          <text>Showering</text>
+        </name>
+      </transition>
+      <transition id="Sleeping">
+        <name>
+          <text>Sleeping</text>
+        </name>
+      </transition>
+      <transition id="Lunch">
+        <name>
+          <text>Lunch</text>
+        </name>
+      </transition>
+      <transition id="Snack">
+        <name>
+          <text>Snack</text>
+        </name>
+      </transition>
+      <transition id="hid_12">
+        <name>
+          <text>hid_12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6ee5f4c5-4b12-4a1f-a37e-2c303e2a704d"/>
+      </transition>
+      <transition id="hid_20">
+        <name>
+          <text>hid_20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ed0c66fb-e3f8-4c24-9a7d-fbbbb46e9901"/>
+      </transition>
+      <transition id="hid_29">
+        <name>
+          <text>hid_29</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="63241098-a239-4cac-a184-548351495c61"/>
+      </transition>
+      <transition id="hid_24">
+        <name>
+          <text>hid_24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="585c98e8-2d58-4b0c-8a22-8d86d14d5038"/>
+      </transition>
+      <arc id="2753943963536" source="Snack" target="splace_in_Spare_Time/TV_Snack_0"/>
+      <arc id="2753937415696" source="intplace_Basin" target="hid_12"/>
+      <arc id="2753937414160" source="Grooming" target="intplace_Grooming"/>
+      <arc id="2753937416720" source="source0" target="Bed"/>
+      <arc id="2753944552976" source="splace_in_Spare_Time/TV_Seat_0" target="Spare_Time/TV"/>
+      <arc id="2753944551632" source="Toilet" target="splace_in_Seat_Toilet_0"/>
+      <arc id="2753944556112" source="splace_in_Seat_Fridge_0" target="Seat"/>
+      <arc id="2753944556624" source="Toilet" target="splace_in_Shower_Toilet_0"/>
+      <arc id="2753943965072" source="Cupboard" target="splace_in_Cupboard_Cupboard_0"/>
+      <arc id="2753943973520" source="hid_15" target="sink0"/>
+      <arc id="2753943975760" source="intplace_Spare_Time/TV" target="hid_18"/>
+      <arc id="2753943971792" source="intplace_Toileting" target="hid_29"/>
+      <arc id="2753937411664" source="hid_13" target="splace_in_Shower_Grooming_0"/>
+      <arc id="2753944554576" source="splace_in_Cupboard_Spare_Time/TV_0" target="Cupboard"/>
+      <arc id="2753944555088" source="splace_in_Shower_Grooming_0" target="Shower"/>
+      <arc id="2753944556432" source="Toilet" target="splace_in_Cabinet_Toilet_0"/>
+      <arc id="2753943968848" source="Toileting" target="intplace_Toileting"/>
+      <arc id="2753943975056" source="Spare_Time/TV" target="intplace_Spare_Time/TV"/>
+      <arc id="2753943967120" source="hid_27" target="splace_in_Cabinet_Toileting_0"/>
+      <arc id="2753943975568" source="hid_18" target="splace_in_Fridge_Spare_Time/TV_0"/>
+      <arc id="2753944555216" source="splace_in_Seat_Basin_0" target="Seat"/>
+      <arc id="2753937413776" source="intplace_Grooming" target="hid_13"/>
+      <arc id="2753944553616" source="splace_in_Basin_Cabinet_0" target="Basin"/>
+      <arc id="2753944552080" source="Cabinet" target="splace_in_Basin_Cabinet_0"/>
+      <arc id="2753944555152" source="splace_in_Cabinet_Toileting_0" target="Cabinet"/>
+      <arc id="2753937415312" source="hid_12" target="sink0"/>
+      <arc id="2753944553104" source="splace_in_Spare_Time/TV_Grooming_0" target="Spare_Time/TV"/>
+      <arc id="2753937411728" source="pre_Microwave" target="Microwave"/>
+      <arc id="2753944553488" source="splace_in_Maindoor_Toileting_0" target="Maindoor"/>
+      <arc id="2753944555728" source="splace_in_Seat_Microwave_0" target="Seat"/>
+      <arc id="2753944556240" source="splace_in_Seat_Toilet_0" target="Seat"/>
+      <arc id="2753944552272" source="Microwave" target="pre_Lunch"/>
+      <arc id="2753943971408" source="hid_29" target="sink0"/>
+      <arc id="2753937411792" source="intplace_Basin" target="hid_10"/>
+      <arc id="2753944554704" source="splace_in_Shower_Basin_0" target="Shower"/>
+      <arc id="2753937409232" source="intplace_Grooming" target="hid_15"/>
+      <arc id="2753937413840" source="pre_Toileting" target="Toileting"/>
+      <arc id="2753943977168" source="Bed" target="pre_Sleeping"/>
+      <arc id="2753943970512" source="Sleeping" target="intplace_Sleeping"/>
+      <arc id="2753943968976" source="hid_23" target="pre_Toileting"/>
+      <arc id="2753943967440" source="intplace_Sleeping" target="hid_24"/>
+      <arc id="2753944554192" source="splace_in_Cupboard_Showering_0" target="Cupboard"/>
+      <arc id="2753944551568" source="Cabinet" target="splace_in_Shower_Cabinet_0"/>
+      <arc id="2753944554320" source="splace_in_Cupboard_Cupboard_0" target="Cupboard"/>
+      <arc id="2753943966736" source="hid_27" target="splace_in_Maindoor_Toileting_0"/>
+      <arc id="2753944552592" source="Fridge" target="splace_in_Seat_Fridge_0"/>
+      <arc id="2753937411408" source="Basin" target="intplace_Basin"/>
+      <arc id="2753944554832" source="splace_in_Shower_Toilet_0" target="Shower"/>
+      <arc id="2753937733904" source="pre_Grooming" target="Grooming"/>
+      <arc id="2753944553232" source="splace_in_Maindoor_Grooming_0" target="Maindoor"/>
+      <arc id="2753937414928" source="Seat" target="splace_in_Spare_Time/TV_Seat_0"/>
+      <arc id="2753937411344" source="pre_Lunch" target="Lunch"/>
+      <arc id="2753944556304" source="splace_in_Fridge_Spare_Time/TV_0" target="Fridge"/>
+      <arc id="2753944552720" source="Fridge" target="splace_in_Fridge_Fridge_0"/>
+      <arc id="2753943976208" source="hid_18" target="splace_in_Basin_Spare_Time/TV_0"/>
+      <arc id="2753943975696" source="hid_18" target="splace_in_Cupboard_Spare_Time/TV_0"/>
+      <arc id="2753944555856" source="splace_in_Seat_Maindoor_0" target="Seat"/>
+      <arc id="2753943974992" source="hid_18" target="splace_in_Toilet_Spare_Time/TV_0"/>
+      <arc id="2753943967056" source="hid_24" target="pre_Toileting"/>
+      <arc id="2753944552912" source="splace_in_Spare_Time/TV_Snack_0" target="Spare_Time/TV"/>
+      <arc id="2753943975504" source="hid_18" target="splace_in_Maindoor_Spare_Time/TV_0"/>
+      <arc id="2753943965328" source="Toaster" target="splace_in_Cupboard_Toaster_0"/>
+      <arc id="2753937412432" source="hid_13" target="splace_in_Spare_Time/TV_Grooming_0"/>
+      <arc id="2753937413968" source="Shower" target="pre_Showering"/>
+      <arc id="2753944555344" source="splace_in_Cabinet_Toilet_0" target="Cabinet"/>
+      <arc id="2753944556368" source="splace_in_Fridge_Maindoor_0" target="Fridge"/>
+      <arc id="2753937422672" source="pre_Sleeping" target="Sleeping"/>
+      <arc id="2753944553808" source="splace_in_Toilet_Spare_Time/TV_0" target="Toilet"/>
+      <arc id="2753943968080" source="intplace_Toileting" target="hid_27"/>
+      <arc id="2753937412752" source="hid_10" target="pre_Grooming"/>
+      <arc id="2753944554448" source="splace_in_Cupboard_Toaster_0" target="Cupboard"/>
+      <arc id="2753943977040" source="hid_20" target="sink0"/>
+      <arc id="2753944554960" source="splace_in_Shower_Cabinet_0" target="Shower"/>
+      <arc id="2753937415056" source="pre_Toaster" target="Toaster"/>
+      <arc id="2753944553360" source="splace_in_Maindoor_Spare_Time/TV_0" target="Maindoor"/>
+      <arc id="2753943961680" source="Showering" target="splace_in_Cupboard_Showering_0"/>
+      <arc id="2753944553744" source="splace_in_Basin_Spare_Time/TV_0" target="Basin"/>
+      <arc id="2753943968400" source="hid_23" target="splace_in_Toilet_Sleeping_0"/>
+      <arc id="2753944552528" source="Fridge" target="pre_Cooktop"/>
+      <arc id="2753943969424" source="Breakfast" target="splace_in_Seat_Breakfast_0"/>
+      <arc id="2753937420240" source="pre_Cooktop" target="Cooktop"/>
+      <arc id="2753944555984" source="splace_in_Seat_Breakfast_0" target="Seat"/>
+      <arc id="2753937409488" source="pre_Showering" target="Showering"/>
+      <arc id="2753944555472" source="splace_in_Fridge_Fridge_0" target="Fridge"/>
+      <arc id="2753937413584" source="hid_13" target="splace_in_Maindoor_Grooming_0"/>
+      <arc id="2753944553936" source="splace_in_Toilet_Sleeping_0" target="Toilet"/>
+      <arc id="2753937411024" source="hid_10" target="splace_in_Shower_Basin_0"/>
+      <arc id="2753944551888" source="Maindoor" target="splace_in_Seat_Maindoor_0"/>
+      <arc id="2753943976912" source="intplace_Spare_Time/TV" target="hid_20"/>
+      <arc id="2753943962064" source="Showering" target="splace_in_Fridge_Showering_0"/>
+      <arc id="2753943969936" source="intplace_Sleeping" target="hid_23"/>
+      <arc id="2753944551824" source="Maindoor" target="splace_in_Fridge_Maindoor_0"/>
+      <arc id="2753937410640" source="hid_10" target="splace_in_Seat_Basin_0"/>
+      <arc id="2753944554064" source="Showering" target="pre_Toaster"/>
+      <arc id="2753943966480" source="Cooktop" target="pre_Microwave"/>
+      <arc id="2753944552336" source="Microwave" target="splace_in_Seat_Microwave_0"/>
+      <arc id="2753944556816" source="splace_in_Fridge_Showering_0" target="Fridge"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

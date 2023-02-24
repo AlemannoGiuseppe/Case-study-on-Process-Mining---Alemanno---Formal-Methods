@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_Microwave">
+        <name>
+          <text>pre_Microwave</text>
+        </name>
+      </place>
+      <place id="intplace_Cooktop">
+        <name>
+          <text>intplace_Cooktop</text>
+        </name>
+      </place>
+      <place id="intplace_Cupboard">
+        <name>
+          <text>intplace_Cupboard</text>
+        </name>
+      </place>
+      <place id="pre_Toaster">
+        <name>
+          <text>pre_Toaster</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Fridge">
+        <name>
+          <text>pre_Fridge</text>
+        </name>
+      </place>
+      <place id="pre_Cooktop">
+        <name>
+          <text>pre_Cooktop</text>
+        </name>
+      </place>
+      <place id="pre_Cupboard">
+        <name>
+          <text>pre_Cupboard</text>
+        </name>
+      </place>
+      <place id="intplace_Microwave">
+        <name>
+          <text>intplace_Microwave</text>
+        </name>
+      </place>
+      <place id="intplace_Fridge">
+        <name>
+          <text>intplace_Fridge</text>
+        </name>
+      </place>
+      <transition id="hid_24">
+        <name>
+          <text>hid_24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b64a3578-cd94-4856-8a07-eded7f1d4de4"/>
+      </transition>
+      <transition id="Fridge">
+        <name>
+          <text>Fridge</text>
+        </name>
+      </transition>
+      <transition id="Cupboard">
+        <name>
+          <text>Cupboard</text>
+        </name>
+      </transition>
+      <transition id="Toaster">
+        <name>
+          <text>Toaster</text>
+        </name>
+      </transition>
+      <transition id="Cooktop">
+        <name>
+          <text>Cooktop</text>
+        </name>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d80122e4-f68d-481d-87e7-032848adad7c"/>
+      </transition>
+      <transition id="hid_30">
+        <name>
+          <text>hid_30</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="865db3fb-1c76-4748-9d69-35475b6ce46c"/>
+      </transition>
+      <transition id="hid_17">
+        <name>
+          <text>hid_17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c48b0457-5d1b-4880-b561-ab9f8d64997b"/>
+      </transition>
+      <transition id="hid_31">
+        <name>
+          <text>hid_31</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f12c92ad-1dbf-49f7-b823-b4de41e4633f"/>
+      </transition>
+      <transition id="hid_19">
+        <name>
+          <text>hid_19</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="83d6145e-c70b-4a58-b919-1ef4c075466c"/>
+      </transition>
+      <transition id="hid_18">
+        <name>
+          <text>hid_18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="91f68607-e8e8-4b15-831d-55bec574c1f8"/>
+      </transition>
+      <transition id="hid_22">
+        <name>
+          <text>hid_22</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4d38720c-af93-430a-b5f3-d708afd6aa84"/>
+      </transition>
+      <transition id="hid_26">
+        <name>
+          <text>hid_26</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e818ba03-f405-4de0-80bd-9fac5964601a"/>
+      </transition>
+      <transition id="hid_20">
+        <name>
+          <text>hid_20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1b94f1d6-c6d6-4e1b-babe-3f1aac95b9a2"/>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7f6fb8fc-da00-496c-a562-dba90f7b66d5"/>
+      </transition>
+      <transition id="hid_11">
+        <name>
+          <text>hid_11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bd825707-cee0-4223-8219-05c3a412f90f"/>
+      </transition>
+      <transition id="Microwave">
+        <name>
+          <text>Microwave</text>
+        </name>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c371ee17-5dcc-465d-ad32-7dea3eab9d08"/>
+      </transition>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ce32afb9-a8e0-49e3-ab30-898e2f7c6411"/>
+      </transition>
+      <transition id="hid_27">
+        <name>
+          <text>hid_27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="88e933ee-8480-49f2-ab68-64984f98a290"/>
+      </transition>
+      <transition id="hid_28">
+        <name>
+          <text>hid_28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0972f890-7cbc-4c17-b718-d20389bd546b"/>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d329adb0-b9d4-4c94-a1f4-0e2df74734d9"/>
+      </transition>
+      <transition id="hid_21">
+        <name>
+          <text>hid_21</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a22e17ec-8076-412a-9ee7-a78cddba40ad"/>
+      </transition>
+      <arc id="2753939531920" source="intplace_Cupboard" target="hid_28"/>
+      <arc id="2753939527312" source="hid_27" target="pre_Toaster"/>
+      <arc id="2753939107536" source="intplace_Fridge" target="hid_20"/>
+      <arc id="2753939410768" source="hid_19" target="pre_Microwave"/>
+      <arc id="2753939109776" source="intplace_Cooktop" target="hid_23"/>
+      <arc id="2753938566032" source="pre_Fridge" target="Fridge"/>
+      <arc id="2753939533712" source="hid_16" target="pre_Cooktop"/>
+      <arc id="2753938561680" source="hid_4" target="pre_Fridge"/>
+      <arc id="2753901104144" source="hid_21" target="pre_Cupboard"/>
+      <arc id="2753939103824" source="pre_Toaster" target="Toaster"/>
+      <arc id="2753939110032" source="Cupboard" target="intplace_Cupboard"/>
+      <arc id="2753939109968" source="intplace_Cooktop" target="hid_22"/>
+      <arc id="2753939528208" source="hid_18" target="pre_Fridge"/>
+      <arc id="2753939110416" source="intplace_Fridge" target="hid_17"/>
+      <arc id="2753939096272" source="source0" target="hid_15"/>
+      <arc id="2753939522256" source="hid_22" target="pre_Microwave"/>
+      <arc id="2753939096528" source="hid_20" target="sink0"/>
+      <arc id="2753939111056" source="intplace_Cupboard" target="hid_24"/>
+      <arc id="2753939528848" source="intplace_Microwave" target="hid_30"/>
+      <arc id="2753939527760" source="intplace_Microwave" target="hid_31"/>
+      <arc id="2753939529104" source="hid_31" target="sink0"/>
+      <arc id="2753939523280" source="Toaster" target="pre_Cupboard"/>
+      <arc id="2753939099408" source="source0" target="hid_11"/>
+      <arc id="2753939531600" source="intplace_Cupboard" target="hid_8"/>
+      <arc id="2753939533776" source="hid_24" target="pre_Cooktop"/>
+      <arc id="2753939107024" source="pre_Cupboard" target="Cupboard"/>
+      <arc id="2753939523152" source="hid_26" target="pre_Fridge"/>
+      <arc id="2753938556496" source="source0" target="hid_4"/>
+      <arc id="2753938570960" source="pre_Cooktop" target="Cooktop"/>
+      <arc id="2753939533136" source="hid_17" target="pre_Cupboard"/>
+      <arc id="2753939100752" source="hid_8" target="pre_Cupboard"/>
+      <arc id="2753939099920" source="pre_Microwave" target="Microwave"/>
+      <arc id="2753939108112" source="intplace_Fridge" target="hid_16"/>
+      <arc id="2753939108240" source="Cooktop" target="intplace_Cooktop"/>
+      <arc id="2753939100176" source="hid_11" target="pre_Cupboard"/>
+      <arc id="2753939528144" source="Microwave" target="intplace_Microwave"/>
+      <arc id="2753939528272" source="hid_30" target="pre_Fridge"/>
+      <arc id="2753939110480" source="Fridge" target="intplace_Fridge"/>
+      <arc id="2753939530384" source="intplace_Cupboard" target="hid_27"/>
+      <arc id="2753939096336" source="hid_15" target="pre_Toaster"/>
+      <arc id="2753939110736" source="hid_23" target="sink0"/>
+      <arc id="2753939527696" source="intplace_Cupboard" target="hid_26"/>
+      <arc id="2753939524560" source="intplace_Microwave" target="hid_8"/>
+      <arc id="2753939528656" source="hid_28" target="sink0"/>
+      <arc id="2753939104784" source="intplace_Fridge" target="hid_18"/>
+      <arc id="2753939109136" source="intplace_Cooktop" target="hid_21"/>
+      <arc id="2753939096976" source="intplace_Fridge" target="hid_19"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

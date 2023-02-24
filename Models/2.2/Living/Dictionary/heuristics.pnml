@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Seat">
+        <name>
+          <text>pre_Seat</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="intplace_Seat">
+        <name>
+          <text>intplace_Seat</text>
+        </name>
+      </place>
+      <transition id="Seat">
+        <name>
+          <text>Seat</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="43a5cad0-0350-414d-8086-d83c9f2e9532"/>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="df66584d-0c5d-4e7b-ba67-7b2f9be2e6b0"/>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="da7f0205-b2c3-4931-92af-f8a5e3c39b81"/>
+      </transition>
+      <arc id="2753900312080" source="pre_Seat" target="Seat"/>
+      <arc id="2753900298320" source="hid_2" target="pre_Seat"/>
+      <arc id="2753900303440" source="source0" target="hid_2"/>
+      <arc id="2753900298960" source="Seat" target="intplace_Seat"/>
+      <arc id="2753900301328" source="intplace_Seat" target="hid_3"/>
+      <arc id="2753900308432" source="hid_3" target="pre_Seat"/>
+      <arc id="2753900302288" source="intplace_Seat" target="hid_4"/>
+      <arc id="2753900303248" source="hid_4" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1677252277.6296437" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1677252277.6296437</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'Sleeping'}, {'Toileting'})">
+        <name>
+          <text>({'Sleeping'}, {'Toileting'})</text>
+        </name>
+      </place>
+      <place id="({'Grooming'}, {'Showering'})">
+        <name>
+          <text>({'Grooming'}, {'Showering'})</text>
+        </name>
+      </place>
+      <place id="({'Showering'}, {'Breakfast'})">
+        <name>
+          <text>({'Showering'}, {'Breakfast'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'Toileting'}, {'Lunch'})">
+        <name>
+          <text>({'Toileting'}, {'Lunch'})</text>
+        </name>
+      </place>
+      <place id="({'Breakfast'}, {'Spare_Time/TV'})">
+        <name>
+          <text>({'Breakfast'}, {'Spare_Time/TV'})</text>
+        </name>
+      </place>
+      <place id="({'Spare_Time/TV'}, {'Lunch'})">
+        <name>
+          <text>({'Spare_Time/TV'}, {'Lunch'})</text>
+        </name>
+      </place>
+      <place id="({'Breakfast', 'Toileting', 'Snack'}, {'Grooming'})">
+        <name>
+          <text>({'Breakfast', 'Toileting', 'Snack'}, {'Grooming'})</text>
+        </name>
+      </place>
+      <place id="({'Breakfast', 'Lunch', 'Snack'}, {'Grooming'})">
+        <name>
+          <text>({'Breakfast', 'Lunch', 'Snack'}, {'Grooming'})</text>
+        </name>
+      </place>
+      <transition id="Snack">
+        <name>
+          <text>Snack</text>
+        </name>
+      </transition>
+      <transition id="Showering">
+        <name>
+          <text>Showering</text>
+        </name>
+      </transition>
+      <transition id="Sleeping">
+        <name>
+          <text>Sleeping</text>
+        </name>
+      </transition>
+      <transition id="Grooming">
+        <name>
+          <text>Grooming</text>
+        </name>
+      </transition>
+      <transition id="Leaving">
+        <name>
+          <text>Leaving</text>
+        </name>
+      </transition>
+      <transition id="Toileting">
+        <name>
+          <text>Toileting</text>
+        </name>
+      </transition>
+      <transition id="Breakfast">
+        <name>
+          <text>Breakfast</text>
+        </name>
+      </transition>
+      <transition id="Lunch">
+        <name>
+          <text>Lunch</text>
+        </name>
+      </transition>
+      <transition id="Spare_Time/TV">
+        <name>
+          <text>Spare_Time/TV</text>
+        </name>
+      </transition>
+      <arc id="2753943572176" source="({'Showering'}, {'Breakfast'})" target="Breakfast"/>
+      <arc id="2753943572304" source="Showering" target="({'Showering'}, {'Breakfast'})"/>
+      <arc id="2753943575696" source="start" target="Toileting"/>
+      <arc id="2753943575568" source="start" target="Sleeping"/>
+      <arc id="2753943575312" source="Spare_Time/TV" target="end"/>
+      <arc id="2753943516048" source="Breakfast" target="({'Breakfast', 'Lunch', 'Snack'}, {'Grooming'})"/>
+      <arc id="2753943515920" source="Lunch" target="({'Breakfast', 'Lunch', 'Snack'}, {'Grooming'})"/>
+      <arc id="2753943515792" source="Snack" target="({'Breakfast', 'Lunch', 'Snack'}, {'Grooming'})"/>
+      <arc id="2753943568592" source="({'Breakfast', 'Toileting', 'Snack'}, {'Grooming'})" target="Grooming"/>
+      <arc id="2753943568848" source="Toileting" target="({'Breakfast', 'Toileting', 'Snack'}, {'Grooming'})"/>
+      <arc id="2753943511888" source="({'Breakfast', 'Lunch', 'Snack'}, {'Grooming'})" target="Grooming"/>
+      <arc id="2753943569616" source="({'Breakfast'}, {'Spare_Time/TV'})" target="Spare_Time/TV"/>
+      <arc id="2753943569744" source="Breakfast" target="({'Breakfast'}, {'Spare_Time/TV'})"/>
+      <arc id="2753943570000" source="({'Toileting'}, {'Lunch'})" target="Lunch"/>
+      <arc id="2753943568976" source="Breakfast" target="({'Breakfast', 'Toileting', 'Snack'}, {'Grooming'})"/>
+      <arc id="2753943568720" source="Snack" target="({'Breakfast', 'Toileting', 'Snack'}, {'Grooming'})"/>
+      <arc id="2753943569232" source="({'Spare_Time/TV'}, {'Lunch'})" target="Lunch"/>
+      <arc id="2753943569360" source="Spare_Time/TV" target="({'Spare_Time/TV'}, {'Lunch'})"/>
+      <arc id="2753943573328" source="Toileting" target="end"/>
+      <arc id="2753943573072" source="Sleeping" target="({'Sleeping'}, {'Toileting'})"/>
+      <arc id="2753943572944" source="({'Sleeping'}, {'Toileting'})" target="Toileting"/>
+      <arc id="2753943572688" source="Grooming" target="({'Grooming'}, {'Showering'})"/>
+      <arc id="2753943572560" source="({'Grooming'}, {'Showering'})" target="Showering"/>
+      <arc id="2753943571920" source="Toileting" target="({'Toileting'}, {'Lunch'})"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

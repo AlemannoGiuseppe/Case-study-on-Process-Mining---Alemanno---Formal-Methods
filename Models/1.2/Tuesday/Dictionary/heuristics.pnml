@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_Breakfast">
+        <name>
+          <text>pre_Breakfast</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Toileting">
+        <name>
+          <text>pre_Toileting</text>
+        </name>
+      </place>
+      <place id="pre_Grooming">
+        <name>
+          <text>pre_Grooming</text>
+        </name>
+      </place>
+      <place id="intplace_Spare_Time/TV">
+        <name>
+          <text>intplace_Spare_Time/TV</text>
+        </name>
+      </place>
+      <place id="intplace_Snack">
+        <name>
+          <text>intplace_Snack</text>
+        </name>
+      </place>
+      <place id="intplace_Toileting">
+        <name>
+          <text>intplace_Toileting</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Spare_Time/TV">
+        <name>
+          <text>pre_Spare_Time/TV</text>
+        </name>
+      </place>
+      <place id="intplace_Grooming">
+        <name>
+          <text>intplace_Grooming</text>
+        </name>
+      </place>
+      <transition id="hid_24">
+        <name>
+          <text>hid_24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="68bc7b7c-b8cb-4a44-8e70-da9372cf01a6"/>
+      </transition>
+      <transition id="Lunch">
+        <name>
+          <text>Lunch</text>
+        </name>
+      </transition>
+      <transition id="Toileting">
+        <name>
+          <text>Toileting</text>
+        </name>
+      </transition>
+      <transition id="Showering">
+        <name>
+          <text>Showering</text>
+        </name>
+      </transition>
+      <transition id="Snack">
+        <name>
+          <text>Snack</text>
+        </name>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2cdaba36-57a9-4e5c-9bec-adb87e65b3a1"/>
+      </transition>
+      <transition id="hid_14">
+        <name>
+          <text>hid_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f14e17ea-af46-41aa-b9c5-aabe936b5561"/>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6f75b9aa-c949-4036-ba1f-63508f66d77a"/>
+      </transition>
+      <transition id="hid_27">
+        <name>
+          <text>hid_27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="79950d1d-fb2f-4178-b737-9b844498ee3c"/>
+      </transition>
+      <transition id="Sleeping">
+        <name>
+          <text>Sleeping</text>
+        </name>
+      </transition>
+      <transition id="Grooming">
+        <name>
+          <text>Grooming</text>
+        </name>
+      </transition>
+      <transition id="Spare_Time/TV">
+        <name>
+          <text>Spare_Time/TV</text>
+        </name>
+      </transition>
+      <transition id="Breakfast">
+        <name>
+          <text>Breakfast</text>
+        </name>
+      </transition>
+      <transition id="Leaving">
+        <name>
+          <text>Leaving</text>
+        </name>
+      </transition>
+      <transition id="hid_17">
+        <name>
+          <text>hid_17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8667af2d-5e5c-4e21-9da7-def38571188a"/>
+      </transition>
+      <transition id="hid_19">
+        <name>
+          <text>hid_19</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4ea4900e-d85e-4e99-bc1e-9edcc6d534ed"/>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5b7fd650-66de-4b93-a16e-76c0c66446ca"/>
+      </transition>
+      <transition id="hid_28">
+        <name>
+          <text>hid_28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d0e6b8b3-dffb-41bc-a110-a72c45f98838"/>
+      </transition>
+      <arc id="2753943292432" source="intplace_Toileting" target="hid_14"/>
+      <arc id="2753943297040" source="Grooming" target="intplace_Grooming"/>
+      <arc id="2753943408144" source="Snack" target="intplace_Snack"/>
+      <arc id="2753942905360" source="hid_3" target="pre_Toileting"/>
+      <arc id="2753943405072" source="intplace_Spare_Time/TV" target="Snack"/>
+      <arc id="2753943406672" source="intplace_Snack" target="hid_28"/>
+      <arc id="2753943406160" source="intplace_Toileting" target="Lunch"/>
+      <arc id="2753943294544" source="hid_17" target="sink0"/>
+      <arc id="2753943303760" source="intplace_Spare_Time/TV" target="hid_23"/>
+      <arc id="2753942908496" source="pre_Grooming" target="Grooming"/>
+      <arc id="2753943405648" source="intplace_Grooming" target="Showering"/>
+      <arc id="2753943298320" source="intplace_Grooming" target="hid_19"/>
+      <arc id="2753943405200" source="Leaving" target="pre_Spare_Time/TV"/>
+      <arc id="2753943301840" source="Showering" target="pre_Breakfast"/>
+      <arc id="2753943407312" source="hid_28" target="pre_Spare_Time/TV"/>
+      <arc id="2753943304400" source="hid_24" target="sink0"/>
+      <arc id="2753943406288" source="intplace_Spare_Time/TV" target="Leaving"/>
+      <arc id="2753943204112" source="pre_Spare_Time/TV" target="Spare_Time/TV"/>
+      <arc id="2753936680720" source="intplace_Snack" target="hid_27"/>
+      <arc id="2753942903568" source="pre_Toileting" target="Toileting"/>
+      <arc id="2753943409936" source="Breakfast" target="pre_Spare_Time/TV"/>
+      <arc id="2753943412496" source="Breakfast" target="pre_Grooming"/>
+      <arc id="2753943408912" source="Sleeping" target="pre_Toileting"/>
+      <arc id="2753943293712" source="intplace_Toileting" target="hid_16"/>
+      <arc id="2753943302544" source="Spare_Time/TV" target="intplace_Spare_Time/TV"/>
+      <arc id="2753943291792" source="Toileting" target="intplace_Toileting"/>
+      <arc id="2753942901648" source="source0" target="Sleeping"/>
+      <arc id="2753943405456" source="Lunch" target="pre_Grooming"/>
+      <arc id="2753943297936" source="intplace_Spare_Time/TV" target="hid_24"/>
+      <arc id="2753942905232" source="source0" target="hid_3"/>
+      <arc id="2753943294352" source="intplace_Toileting" target="hid_17"/>
+      <arc id="2753943412176" source="intplace_Spare_Time/TV" target="Lunch"/>
+      <arc id="2753943411152" source="hid_19" target="pre_Spare_Time/TV"/>
+      <arc id="2753943410128" source="hid_27" target="pre_Grooming"/>
+      <arc id="2753943407568" source="hid_16" target="pre_Spare_Time/TV"/>
+      <arc id="2753943407056" source="hid_14" target="pre_Grooming"/>
+      <arc id="2753943300560" source="pre_Breakfast" target="Breakfast"/>
+      <arc id="2753943405008" source="hid_23" target="pre_Toileting"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

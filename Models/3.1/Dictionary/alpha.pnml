@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1677252298.5562475" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1677252298.5562475</text>
+    </name>
+    <page id="n0">
+      <place id="({'Spare_Time/TV', 'Sleeping'}, {'Toilet'})">
+        <name>
+          <text>({'Spare_Time/TV', 'Sleeping'}, {'Toilet'})</text>
+        </name>
+      </place>
+      <place id="({'Cooktop', 'Showering', 'Maindoor'}, {'Seat'})">
+        <name>
+          <text>({'Cooktop', 'Showering', 'Maindoor'}, {'Seat'})</text>
+        </name>
+      </place>
+      <place id="({'Grooming'}, {'Showering', 'Maindoor'})">
+        <name>
+          <text>({'Grooming'}, {'Showering', 'Maindoor'})</text>
+        </name>
+      </place>
+      <place id="({'Bed'}, {'Sleeping'})">
+        <name>
+          <text>({'Bed'}, {'Sleeping'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'Snack'}, {'Spare_Time/TV'})">
+        <name>
+          <text>({'Snack'}, {'Spare_Time/TV'})</text>
+        </name>
+      </place>
+      <place id="({'Toileting'}, {'Maindoor'})">
+        <name>
+          <text>({'Toileting'}, {'Maindoor'})</text>
+        </name>
+      </place>
+      <place id="({'Basin'}, {'Cooktop', 'Shower'})">
+        <name>
+          <text>({'Basin'}, {'Cooktop', 'Shower'})</text>
+        </name>
+      </place>
+      <place id="({'Showering', 'Microwave', 'Maindoor'}, {'Seat'})">
+        <name>
+          <text>({'Showering', 'Microwave', 'Maindoor'}, {'Seat'})</text>
+        </name>
+      </place>
+      <place id="({'Breakfast', 'Maindoor'}, {'Seat'})">
+        <name>
+          <text>({'Breakfast', 'Maindoor'}, {'Seat'})</text>
+        </name>
+      </place>
+      <place id="({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})">
+        <name>
+          <text>({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})</text>
+        </name>
+      </place>
+      <place id="({'Spare_Time/TV'}, {'Cooktop', 'Maindoor'})">
+        <name>
+          <text>({'Spare_Time/TV'}, {'Cooktop', 'Maindoor'})</text>
+        </name>
+      </place>
+      <place id="({'Spare_Time/TV'}, {'Cooktop', 'Toilet'})">
+        <name>
+          <text>({'Spare_Time/TV'}, {'Cooktop', 'Toilet'})</text>
+        </name>
+      </place>
+      <place id="({'Showering', 'Microwave', 'Spare_Time/TV', 'Sleeping'}, {'Basin'})">
+        <name>
+          <text>({'Showering', 'Microwave', 'Spare_Time/TV', 'Sleeping'}, {'Basin'})</text>
+        </name>
+      </place>
+      <place id="({'Showering'}, {'Basin', 'Breakfast'})">
+        <name>
+          <text>({'Showering'}, {'Basin', 'Breakfast'})</text>
+        </name>
+      </place>
+      <place id="({'Showering'}, {'Toaster', 'Seat'})">
+        <name>
+          <text>({'Showering'}, {'Toaster', 'Seat'})</text>
+        </name>
+      </place>
+      <place id="({'Microwave'}, {'Lunch', 'Seat'})">
+        <name>
+          <text>({'Microwave'}, {'Lunch', 'Seat'})</text>
+        </name>
+      </place>
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'Sleeping'}, {'Toileting'})">
+        <name>
+          <text>({'Sleeping'}, {'Toileting'})</text>
+        </name>
+      </place>
+      <place id="({'Shower'}, {'Showering'})">
+        <name>
+          <text>({'Shower'}, {'Showering'})</text>
+        </name>
+      </place>
+      <place id="({'Basin'}, {'Cooktop', 'Grooming'})">
+        <name>
+          <text>({'Basin'}, {'Cooktop', 'Grooming'})</text>
+        </name>
+      </place>
+      <place id="({'Basin', 'Breakfast'}, {'Cooktop'})">
+        <name>
+          <text>({'Basin', 'Breakfast'}, {'Cooktop'})</text>
+        </name>
+      </place>
+      <place id="({'Microwave'}, {'Basin', 'Lunch'})">
+        <name>
+          <text>({'Microwave'}, {'Basin', 'Lunch'})</text>
+        </name>
+      </place>
+      <place id="({'Breakfast', 'Spare_Time/TV'}, {'Cooktop'})">
+        <name>
+          <text>({'Breakfast', 'Spare_Time/TV'}, {'Cooktop'})</text>
+        </name>
+      </place>
+      <place id="({'Toilet'}, {'Maindoor', 'Shower'})">
+        <name>
+          <text>({'Toilet'}, {'Maindoor', 'Shower'})</text>
+        </name>
+      </place>
+      <transition id="Shower">
+        <name>
+          <text>Shower</text>
+        </name>
+      </transition>
+      <transition id="Toaster">
+        <name>
+          <text>Toaster</text>
+        </name>
+      </transition>
+      <transition id="Cupboard">
+        <name>
+          <text>Cupboard</text>
+        </name>
+      </transition>
+      <transition id="Cabinet">
+        <name>
+          <text>Cabinet</text>
+        </name>
+      </transition>
+      <transition id="Bed">
+        <name>
+          <text>Bed</text>
+        </name>
+      </transition>
+      <transition id="Snack">
+        <name>
+          <text>Snack</text>
+        </name>
+      </transition>
+      <transition id="Basin">
+        <name>
+          <text>Basin</text>
+        </name>
+      </transition>
+      <transition id="Showering">
+        <name>
+          <text>Showering</text>
+        </name>
+      </transition>
+      <transition id="Fridge">
+        <name>
+          <text>Fridge</text>
+        </name>
+      </transition>
+      <transition id="Breakfast">
+        <name>
+          <text>Breakfast</text>
+        </name>
+      </transition>
+      <transition id="Lunch">
+        <name>
+          <text>Lunch</text>
+        </name>
+      </transition>
+      <transition id="Microwave">
+        <name>
+          <text>Microwave</text>
+        </name>
+      </transition>
+      <transition id="Grooming">
+        <name>
+          <text>Grooming</text>
+        </name>
+      </transition>
+      <transition id="Maindoor">
+        <name>
+          <text>Maindoor</text>
+        </name>
+      </transition>
+      <transition id="Seat">
+        <name>
+          <text>Seat</text>
+        </name>
+      </transition>
+      <transition id="Toilet">
+        <name>
+          <text>Toilet</text>
+        </name>
+      </transition>
+      <transition id="Spare_Time/TV">
+        <name>
+          <text>Spare_Time/TV</text>
+        </name>
+      </transition>
+      <transition id="Cooktop">
+        <name>
+          <text>Cooktop</text>
+        </name>
+      </transition>
+      <transition id="Leaving">
+        <name>
+          <text>Leaving</text>
+        </name>
+      </transition>
+      <transition id="Sleeping">
+        <name>
+          <text>Sleeping</text>
+        </name>
+      </transition>
+      <transition id="Toileting">
+        <name>
+          <text>Toileting</text>
+        </name>
+      </transition>
+      <arc id="2753938388496" source="Showering" target="({'Showering'}, {'Toaster', 'Seat'})"/>
+      <arc id="2753938376464" source="Breakfast" target="({'Breakfast', 'Spare_Time/TV'}, {'Cooktop'})"/>
+      <arc id="2753938388752" source="({'Showering'}, {'Basin', 'Breakfast'})" target="Basin"/>
+      <arc id="2753938390864" source="Microwave" target="({'Microwave'}, {'Lunch', 'Seat'})"/>
+      <arc id="2753938380816" source="Spare_Time/TV" target="({'Showering', 'Microwave', 'Spare_Time/TV', 'Sleeping'}, {'Basin'})"/>
+      <arc id="2753938388880" source="Showering" target="({'Showering'}, {'Basin', 'Breakfast'})"/>
+      <arc id="2753938378704" source="({'Spare_Time/TV'}, {'Cooktop', 'Toilet'})" target="Toilet"/>
+      <arc id="2753938311696" source="Basin" target="({'Basin'}, {'Cooktop', 'Grooming'})"/>
+      <arc id="2753938375184" source="Basin" target="({'Basin', 'Breakfast'}, {'Cooktop'})"/>
+      <arc id="2753938376208" source="Breakfast" target="({'Basin', 'Breakfast'}, {'Cooktop'})"/>
+      <arc id="2753938309904" source="({'Toileting'}, {'Maindoor'})" target="Maindoor"/>
+      <arc id="2753938312592" source="start" target="Bed"/>
+      <arc id="2753938311184" source="({'Shower'}, {'Showering'})" target="Showering"/>
+      <arc id="2753938311568" source="Shower" target="({'Shower'}, {'Showering'})"/>
+      <arc id="2753938311824" source="Bed" target="({'Bed'}, {'Sleeping'})"/>
+      <arc id="2753938310288" source="Toileting" target="({'Toileting'}, {'Maindoor'})"/>
+      <arc id="2753938311312" source="({'Basin'}, {'Cooktop', 'Grooming'})" target="Cooktop"/>
+      <arc id="2753938389136" source="({'Breakfast', 'Maindoor'}, {'Seat'})" target="Seat"/>
+      <arc id="2753938389264" source="({'Grooming'}, {'Showering', 'Maindoor'})" target="Maindoor"/>
+      <arc id="2753938376848" source="Showering" target="({'Showering', 'Microwave', 'Maindoor'}, {'Seat'})"/>
+      <arc id="2753938381200" source="Showering" target="({'Showering', 'Microwave', 'Spare_Time/TV', 'Sleeping'}, {'Basin'})"/>
+      <arc id="2753938387280" source="Showering" target="({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})"/>
+      <arc id="2753938387408" source="Maindoor" target="({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})"/>
+      <arc id="2753938387152" source="({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})" target="Basin"/>
+      <arc id="2753938387536" source="Microwave" target="({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})"/>
+      <arc id="2753938375376" source="({'Grooming'}, {'Showering', 'Maindoor'})" target="Showering"/>
+      <arc id="2753938387664" source="Snack" target="({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})"/>
+      <arc id="2753938389776" source="({'Cooktop', 'Showering', 'Maindoor'}, {'Seat'})" target="Seat"/>
+      <arc id="2753938381584" source="({'Showering'}, {'Basin', 'Breakfast'})" target="Breakfast"/>
+      <arc id="2753938385680" source="Toilet" target="({'Toilet'}, {'Maindoor', 'Shower'})"/>
+      <arc id="2753938390032" source="({'Microwave'}, {'Basin', 'Lunch'})" target="Lunch"/>
+      <arc id="2753938388048" source="Microwave" target="({'Showering', 'Microwave', 'Spare_Time/TV', 'Sleeping'}, {'Basin'})"/>
+      <arc id="2753938379856" source="Sleeping" target="({'Snack', 'Microwave', 'Maindoor', 'Sleeping', 'Showering'}, {'Basin'})"/>
+      <arc id="2753938390160" source="Maindoor" target="({'Cooktop', 'Showering', 'Maindoor'}, {'Seat'})"/>
+      <arc id="2753938381968" source="({'Showering', 'Microwave', 'Maindoor'}, {'Seat'})" target="Seat"/>
+      <arc id="2753938390480" source="({'Microwave'}, {'Lunch', 'Seat'})" target="Lunch"/>
+      <arc id="2753938388304" source="({'Showering'}, {'Toaster', 'Seat'})" target="Seat"/>
+      <arc id="2753938390416" source="({'Microwave'}, {'Basin', 'Lunch'})" target="Basin"/>
+      <arc id="2753938380112" source="Spare_Time/TV" target="({'Spare_Time/TV'}, {'Cooktop', 'Maindoor'})"/>
+      <arc id="2753938376144" source="Maindoor" target="({'Breakfast', 'Maindoor'}, {'Seat'})"/>
+      <arc id="2753938390544" source="Showering" target="({'Cooktop', 'Showering', 'Maindoor'}, {'Seat'})"/>
+      <arc id="2753938382352" source="Maindoor" target="({'Showering', 'Microwave', 'Maindoor'}, {'Seat'})"/>
+      <arc id="2753938386448" source="({'Spare_Time/TV'}, {'Cooktop', 'Maindoor'})" target="Maindoor"/>
+      <arc id="2753938386576" source="({'Spare_Time/TV'}, {'Cooktop', 'Maindoor'})" target="Cooktop"/>
+      <arc id="2753938390800" source="Microwave" target="({'Microwave'}, {'Basin', 'Lunch'})"/>
+      <arc id="2753938386704" source="({'Spare_Time/TV', 'Sleeping'}, {'Toilet'})" target="Toilet"/>
+      <arc id="2753938390928" source="Cooktop" target="({'Cooktop', 'Showering', 'Maindoor'}, {'Seat'})"/>
+      <arc id="2753938382736" source="Microwave" target="({'Showering', 'Microwave', 'Maindoor'}, {'Seat'})"/>
+      <arc id="2753938386832" source="Sleeping" target="({'Spare_Time/TV', 'Sleeping'}, {'Toilet'})"/>
+      <arc id="2753938310736" source="({'Basin'}, {'Cooktop', 'Grooming'})" target="Grooming"/>
+      <arc id="2753938309968" source="Basin" target="({'Basin'}, {'Cooktop', 'Shower'})"/>
+      <arc id="2753938312272" source="({'Bed'}, {'Sleeping'})" target="Sleeping"/>
+      <arc id="2753938310224" source="Sleeping" target="({'Sleeping'}, {'Toileting'})"/>
+      <arc id="2753938309840" source="({'Sleeping'}, {'Toileting'})" target="Toileting"/>
+      <arc id="2753938311632" source="Snack" target="({'Snack'}, {'Spare_Time/TV'})"/>
+      <arc id="2753938311248" source="({'Snack'}, {'Spare_Time/TV'})" target="Spare_Time/TV"/>
+      <arc id="2753938309200" source="({'Basin'}, {'Cooktop', 'Shower'})" target="Shower"/>
+      <arc id="2753938309584" source="({'Basin'}, {'Cooktop', 'Shower'})" target="Cooktop"/>
+      <arc id="2753938375760" source="({'Basin', 'Breakfast'}, {'Cooktop'})" target="Cooktop"/>
+      <arc id="2753938374928" source="({'Breakfast', 'Spare_Time/TV'}, {'Cooktop'})" target="Cooktop"/>
+      <arc id="2753938386960" source="Spare_Time/TV" target="({'Spare_Time/TV', 'Sleeping'}, {'Toilet'})"/>
+      <arc id="2753938385488" source="({'Toilet'}, {'Maindoor', 'Shower'})" target="Shower"/>
+      <arc id="2753938385616" source="({'Toilet'}, {'Maindoor', 'Shower'})" target="Maindoor"/>
+      <arc id="2753938387728" source="({'Showering', 'Microwave', 'Spare_Time/TV', 'Sleeping'}, {'Basin'})" target="Basin"/>
+      <arc id="2753938387856" source="Sleeping" target="({'Showering', 'Microwave', 'Spare_Time/TV', 'Sleeping'}, {'Basin'})"/>
+      <arc id="2753938375696" source="Spare_Time/TV" target="({'Breakfast', 'Spare_Time/TV'}, {'Cooktop'})"/>
+      <arc id="2753938390096" source="({'Microwave'}, {'Lunch', 'Seat'})" target="Seat"/>
+      <arc id="2753938386000" source="({'Spare_Time/TV'}, {'Cooktop', 'Toilet'})" target="Cooktop"/>
+      <arc id="2753938375824" source="Grooming" target="({'Grooming'}, {'Showering', 'Maindoor'})"/>
+      <arc id="2753938386128" source="Spare_Time/TV" target="({'Spare_Time/TV'}, {'Cooktop', 'Toilet'})"/>
+      <arc id="2753938388368" source="({'Showering'}, {'Toaster', 'Seat'})" target="Toaster"/>
+      <arc id="2753938386384" source="Breakfast" target="({'Breakfast', 'Maindoor'}, {'Seat'})"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_Seat">
+        <name>
+          <text>pre_Seat</text>
+        </name>
+      </place>
+      <place id="pre_Cupboard">
+        <name>
+          <text>pre_Cupboard</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Basin">
+        <name>
+          <text>pre_Basin</text>
+        </name>
+      </place>
+      <place id="pre_Maindoor">
+        <name>
+          <text>pre_Maindoor</text>
+        </name>
+      </place>
+      <place id="pre_Toilet">
+        <name>
+          <text>pre_Toilet</text>
+        </name>
+      </place>
+      <place id="splace_in_Cupboard_4">
+        <name>
+          <text>splace_in_Cupboard_4</text>
+        </name>
+      </place>
+      <place id="intplace_Cupboard">
+        <name>
+          <text>intplace_Cupboard</text>
+        </name>
+      </place>
+      <place id="intplace_Toilet">
+        <name>
+          <text>intplace_Toilet</text>
+        </name>
+      </place>
+      <place id="intplace_Toaster">
+        <name>
+          <text>intplace_Toaster</text>
+        </name>
+      </place>
+      <place id="splace_in_Cupboard_Toilet_3">
+        <name>
+          <text>splace_in_Cupboard_Toilet_3</text>
+        </name>
+      </place>
+      <place id="intplace_Cabinet">
+        <name>
+          <text>intplace_Cabinet</text>
+        </name>
+      </place>
+      <place id="intplace_Seat">
+        <name>
+          <text>intplace_Seat</text>
+        </name>
+      </place>
+      <place id="pre_Cabinet">
+        <name>
+          <text>pre_Cabinet</text>
+        </name>
+      </place>
+      <place id="splace_in_Seat_Shower_1">
+        <name>
+          <text>splace_in_Seat_Shower_1</text>
+        </name>
+      </place>
+      <place id="splace_in_Cabinet_Bed_1">
+        <name>
+          <text>splace_in_Cabinet_Bed_1</text>
+        </name>
+      </place>
+      <place id="splace_in_Basin_0">
+        <name>
+          <text>splace_in_Basin_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Basin_2">
+        <name>
+          <text>splace_in_Basin_2</text>
+        </name>
+      </place>
+      <place id="pre_Cooktop">
+        <name>
+          <text>pre_Cooktop</text>
+        </name>
+      </place>
+      <place id="splace_in_Cabinet_Toilet_1">
+        <name>
+          <text>splace_in_Cabinet_Toilet_1</text>
+        </name>
+      </place>
+      <place id="intplace_Basin">
+        <name>
+          <text>intplace_Basin</text>
+        </name>
+      </place>
+      <place id="intplace_Cooktop">
+        <name>
+          <text>intplace_Cooktop</text>
+        </name>
+      </place>
+      <place id="intplace_Microwave">
+        <name>
+          <text>intplace_Microwave</text>
+        </name>
+      </place>
+      <place id="intplace_Shower">
+        <name>
+          <text>intplace_Shower</text>
+        </name>
+      </place>
+      <place id="pre_Fridge">
+        <name>
+          <text>pre_Fridge</text>
+        </name>
+      </place>
+      <place id="splace_in_Shower_Toilet_0">
+        <name>
+          <text>splace_in_Shower_Toilet_0</text>
+        </name>
+      </place>
+      <place id="intplace_Bed">
+        <name>
+          <text>intplace_Bed</text>
+        </name>
+      </place>
+      <place id="splace_in_Cupboard_Seat_1">
+        <name>
+          <text>splace_in_Cupboard_Seat_1</text>
+        </name>
+      </place>
+      <place id="intplace_Fridge">
+        <name>
+          <text>intplace_Fridge</text>
+        </name>
+      </place>
+      <place id="pre_Toaster">
+        <name>
+          <text>pre_Toaster</text>
+        </name>
+      </place>
+      <place id="intplace_Maindoor">
+        <name>
+          <text>intplace_Maindoor</text>
+        </name>
+      </place>
+      <transition id="hid_83">
+        <name>
+          <text>hid_83</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fe6645d2-7045-475e-bd54-25e5591e6e3e"/>
+      </transition>
+      <transition id="Cooktop">
+        <name>
+          <text>Cooktop</text>
+        </name>
+      </transition>
+      <transition id="Bed">
+        <name>
+          <text>Bed</text>
+        </name>
+      </transition>
+      <transition id="hid_13">
+        <name>
+          <text>hid_13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e2ea7636-9282-44d8-af27-cb1ac88511a1"/>
+      </transition>
+      <transition id="hid_45">
+        <name>
+          <text>hid_45</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e7386c35-2488-48b4-8107-812c3d2bf5f2"/>
+      </transition>
+      <transition id="hid_21">
+        <name>
+          <text>hid_21</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="816c2835-d91c-4b39-9f0d-03d57665ae31"/>
+      </transition>
+      <transition id="hid_73">
+        <name>
+          <text>hid_73</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bb99df7b-b34e-4362-b950-db7e4f06bba4"/>
+      </transition>
+      <transition id="hid_66">
+        <name>
+          <text>hid_66</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e144e9a4-5c0f-4887-a13b-ed9b93423c87"/>
+      </transition>
+      <transition id="hid_55">
+        <name>
+          <text>hid_55</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f13c5d61-5f65-472f-9dd1-ba5793fbd8fa"/>
+      </transition>
+      <transition id="hid_62">
+        <name>
+          <text>hid_62</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="989fe5fc-b9e2-48bf-adce-d88da72e3a75"/>
+      </transition>
+      <transition id="hid_44">
+        <name>
+          <text>hid_44</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="84ade00f-55c2-434e-b73f-c0aeed814efa"/>
+      </transition>
+      <transition id="hid_67">
+        <name>
+          <text>hid_67</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4cdec2a0-d0ce-4bae-93bd-cb1718f2c680"/>
+      </transition>
+      <transition id="hid_79">
+        <name>
+          <text>hid_79</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ea45179f-1e91-4e7d-85b0-85a73e1a892e"/>
+      </transition>
+      <transition id="hid_39">
+        <name>
+          <text>hid_39</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="09c30978-d314-44b5-afa8-0c64601a0868"/>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="96dae3ac-f90b-4f86-ad97-589b573692ae"/>
+      </transition>
+      <transition id="Basin">
+        <name>
+          <text>Basin</text>
+        </name>
+      </transition>
+      <transition id="hid_17">
+        <name>
+          <text>hid_17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8cecdd32-5ae6-492a-8d45-17e17f98d91f"/>
+      </transition>
+      <transition id="hid_46">
+        <name>
+          <text>hid_46</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="57a154f7-f168-480b-b10d-8389973c6be5"/>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4730373f-efbc-4498-a5cf-882b5ca824c7"/>
+      </transition>
+      <transition id="Toaster">
+        <name>
+          <text>Toaster</text>
+        </name>
+      </transition>
+      <transition id="hid_51">
+        <name>
+          <text>hid_51</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="daf8f2d0-89a1-4238-b08c-8eee80da7507"/>
+      </transition>
+      <transition id="hid_29">
+        <name>
+          <text>hid_29</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="05c60898-bae8-4c4a-a15d-f4637876ad1b"/>
+      </transition>
+      <transition id="Toilet">
+        <name>
+          <text>Toilet</text>
+        </name>
+      </transition>
+      <transition id="hid_63">
+        <name>
+          <text>hid_63</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dac2bda6-e7d4-4ff7-8be9-3f2e613cdebf"/>
+      </transition>
+      <transition id="hid_61">
+        <name>
+          <text>hid_61</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d7f88f83-bcbe-462c-b4e4-49292f3877db"/>
+      </transition>
+      <transition id="hid_59">
+        <name>
+          <text>hid_59</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ca0d04fe-5ce5-46be-b112-a8947686d2fa"/>
+      </transition>
+      <transition id="hid_81">
+        <name>
+          <text>hid_81</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="db3d28e1-07ae-4344-85a2-dee1df4f73cc"/>
+      </transition>
+      <transition id="hid_6">
+        <name>
+          <text>hid_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="220b2d83-eaaa-406b-a376-9edd7ba59563"/>
+      </transition>
+      <transition id="Seat">
+        <name>
+          <text>Seat</text>
+        </name>
+      </transition>
+      <transition id="Microwave">
+        <name>
+          <text>Microwave</text>
+        </name>
+      </transition>
+      <transition id="Cupboard">
+        <name>
+          <text>Cupboard</text>
+        </name>
+      </transition>
+      <transition id="Fridge">
+        <name>
+          <text>Fridge</text>
+        </name>
+      </transition>
+      <transition id="hid_65">
+        <name>
+          <text>hid_65</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dc9fe970-5632-48d8-9364-b55d0ce1ef15"/>
+      </transition>
+      <transition id="hid_76">
+        <name>
+          <text>hid_76</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2952c4ec-328f-4118-9a90-9a5f7dae3fd5"/>
+      </transition>
+      <transition id="hid_49">
+        <name>
+          <text>hid_49</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d68401d6-9444-4809-a2ae-4bf6d199462f"/>
+      </transition>
+      <transition id="Shower">
+        <name>
+          <text>Shower</text>
+        </name>
+      </transition>
+      <transition id="Maindoor">
+        <name>
+          <text>Maindoor</text>
+        </name>
+      </transition>
+      <transition id="hid_27">
+        <name>
+          <text>hid_27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7bd88378-8110-4b3d-9861-a9ac02329532"/>
+      </transition>
+      <transition id="hid_78">
+        <name>
+          <text>hid_78</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8255a7bd-fc45-44e2-a880-777392c42545"/>
+      </transition>
+      <transition id="hid_86">
+        <name>
+          <text>hid_86</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f106db32-e014-4150-9ffb-d04c0898ce0c"/>
+      </transition>
+      <transition id="hid_84">
+        <name>
+          <text>hid_84</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2df89777-26db-4404-ac36-5d44a79e260a"/>
+      </transition>
+      <transition id="hid_82">
+        <name>
+          <text>hid_82</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a23bfc52-36d9-43e1-8418-615591e62035"/>
+      </transition>
+      <transition id="hid_42">
+        <name>
+          <text>hid_42</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9c13f985-15cb-4430-8137-ad83fddcdd02"/>
+      </transition>
+      <transition id="Cabinet">
+        <name>
+          <text>Cabinet</text>
+        </name>
+      </transition>
+      <transition id="hid_60">
+        <name>
+          <text>hid_60</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a82c26fc-1eba-4ff6-a5ad-8b858e7b9f32"/>
+      </transition>
+      <transition id="hid_71">
+        <name>
+          <text>hid_71</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9adc427a-46d5-4eba-b489-b0af63f1f39f"/>
+      </transition>
+      <transition id="hid_72">
+        <name>
+          <text>hid_72</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7b618233-645b-4d25-92eb-5fdb505670b1"/>
+      </transition>
+      <transition id="hid_69">
+        <name>
+          <text>hid_69</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8869b0fd-a48a-43d4-9465-5555acc6af97"/>
+      </transition>
+      <transition id="hid_64">
+        <name>
+          <text>hid_64</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="42001e71-0f9b-4c16-84e7-f246356418d0"/>
+      </transition>
+      <transition id="hid_14">
+        <name>
+          <text>hid_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c185d982-7e35-4f39-8254-9deaa1ad6f87"/>
+      </transition>
+      <transition id="hid_30">
+        <name>
+          <text>hid_30</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3f52f631-db49-4998-86f9-c8e0ebe13cd4"/>
+      </transition>
+      <transition id="hid_52">
+        <name>
+          <text>hid_52</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2ccf0f2e-c29b-4ba9-9c3a-cd4f5db251b8"/>
+      </transition>
+      <transition id="hid_48">
+        <name>
+          <text>hid_48</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0316b62d-9fdb-463e-91ac-e6a490b28cf1"/>
+      </transition>
+      <transition id="hid_50">
+        <name>
+          <text>hid_50</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a505656b-7494-4dae-881a-0a4702695643"/>
+      </transition>
+      <transition id="hid_1">
+        <name>
+          <text>hid_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ab7dbc2f-e739-461f-9693-7ccd534e09c7"/>
+      </transition>
+      <transition id="hid_87">
+        <name>
+          <text>hid_87</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d6483230-9298-4bd3-9ee0-6e2bce438fed"/>
+      </transition>
+      <arc id="2753944456784" source="intplace_Bed" target="hid_87"/>
+      <arc id="2753944530768" source="Cooktop" target="intplace_Cooktop"/>
+      <arc id="2753944469008" source="hid_61" target="pre_Fridge"/>
+      <arc id="2753944467984" source="hid_81" target="pre_Cupboard"/>
+      <arc id="2753944467472" source="hid_84" target="pre_Cupboard"/>
+      <arc id="2753944521744" source="pre_Toaster" target="Toaster"/>
+      <arc id="2753944526864" source="intplace_Basin" target="hid_39"/>
+      <arc id="2753944525072" source="Shower" target="intplace_Shower"/>
+      <arc id="2753944518864" source="intplace_Cabinet" target="hid_55"/>
+      <arc id="2753943223312" source="hid_71" target="sink0"/>
+      <arc id="2753944464528" source="hid_65" target="pre_Basin"/>
+      <arc id="2753943215376" source="intplace_Toilet" target="hid_69"/>
+      <arc id="2753943223824" source="intplace_Toilet" target="hid_71"/>
+      <arc id="2753944468688" source="hid_44" target="pre_Toilet"/>
+      <arc id="2753943219856" source="intplace_Toilet" target="hid_67"/>
+      <arc id="2753943209680" source="Fridge" target="intplace_Fridge"/>
+      <arc id="2753944638544" source="splace_in_Cupboard_Toilet_3" target="hid_29"/>
+      <arc id="2753944956496" source="splace_in_Basin_0" target="hid_1"/>
+      <arc id="2753944954448" source="splace_in_Basin_2" target="hid_3"/>
+      <arc id="2753944640592" source="hid_27" target="pre_Cupboard"/>
+      <arc id="2753944465552" source="splace_in_Shower_Toilet_0" target="Shower"/>
+      <arc id="2753944459344" source="intplace_Bed" target="hid_86"/>
+      <arc id="2753944464720" source="hid_86" target="splace_in_Cabinet_Bed_1"/>
+      <arc id="2753944460752" source="intplace_Toaster" target="hid_84"/>
+      <arc id="2753944531600" source="intplace_Basin" target="hid_45"/>
+      <arc id="2753943208976" source="intplace_Toilet" target="hid_8"/>
+      <arc id="2753944532112" source="intplace_Basin" target="hid_42"/>
+      <arc id="2753943210000" source="intplace_Seat" target="hid_63"/>
+      <arc id="2753943215696" source="intplace_Microwave" target="hid_73"/>
+      <arc id="2753943224144" source="intplace_Seat" target="hid_60"/>
+      <arc id="2753943213968" source="hid_67" target="splace_in_Cupboard_Toilet_3"/>
+      <arc id="2753944958608" source="splace_in_Cabinet_Toilet_1" target="hid_13"/>
+      <arc id="2753944647312" source="splace_in_Seat_Shower_1" target="hid_21"/>
+      <arc id="2753944842384" source="hid_1" target="pre_Basin"/>
+      <arc id="2753944945808" source="pre_Cooktop" target="Cooktop"/>
+      <arc id="2753944518992" source="intplace_Basin" target="hid_44"/>
+      <arc id="2753943208272" source="hid_60" target="splace_in_Cupboard_Seat_1"/>
+      <arc id="2753943222416" source="intplace_Seat" target="hid_64"/>
+      <arc id="2753944459664" source="hid_51" target="pre_Fridge"/>
+      <arc id="2753943223440" source="Microwave" target="intplace_Microwave"/>
+      <arc id="2753944524496" source="intplace_Shower" target="hid_52"/>
+      <arc id="2753944645392" source="pre_Toilet" target="Toilet"/>
+      <arc id="2753944457936" source="hid_83" target="pre_Seat"/>
+      <arc id="2753944641744" source="pre_Cupboard" target="Cupboard"/>
+      <arc id="2753944645840" source="pre_Seat" target="Seat"/>
+      <arc id="2753944638160" source="hid_30" target="pre_Cupboard"/>
+      <arc id="2753944469200" source="hid_73" target="pre_Seat"/>
+      <arc id="2753944530128" source="source0" target="Bed"/>
+      <arc id="2753943218256" source="hid_64" target="sink0"/>
+      <arc id="2753944465680" source="intplace_Basin" target="Shower"/>
+      <arc id="2753943210320" source="intplace_Cupboard" target="hid_79"/>
+      <arc id="2753943208080" source="intplace_Fridge" target="hid_81"/>
+      <arc id="2753944523280" source="hid_51" target="splace_in_Seat_Shower_1"/>
+      <arc id="2753943218768" source="intplace_Toilet" target="hid_65"/>
+      <arc id="2753944466192" source="intplace_Toaster" target="hid_21"/>
+      <arc id="2753943209104" source="intplace_Cupboard" target="hid_27"/>
+      <arc id="2753944958224" source="hid_13" target="pre_Cabinet"/>
+      <arc id="2753943213584" source="Cupboard" target="intplace_Cupboard"/>
+      <arc id="2753944532752" source="intplace_Maindoor" target="hid_50"/>
+      <arc id="2753944463248" source="Bed" target="intplace_Bed"/>
+      <arc id="2753944647440" source="hid_21" target="pre_Seat"/>
+      <arc id="2753944466704" source="intplace_Cooktop" target="Microwave"/>
+      <arc id="2753944952080" source="hid_8" target="pre_Maindoor"/>
+      <arc id="2753944465488" source="hid_59" target="pre_Basin"/>
+      <arc id="2753944952592" source="pre_Maindoor" target="Maindoor"/>
+      <arc id="2753944959248" source="hid_14" target="pre_Cabinet"/>
+      <arc id="2753944467216" source="hid_42" target="pre_Seat"/>
+      <arc id="2753944468240" source="hid_50" target="pre_Seat"/>
+      <arc id="2753944462608" source="hid_79" target="pre_Toaster"/>
+      <arc id="2753944956688" source="pre_Cabinet" target="Cabinet"/>
+      <arc id="2753944527056" source="Basin" target="intplace_Basin"/>
+      <arc id="2753944461520" source="Toaster" target="intplace_Toaster"/>
+      <arc id="2753944459792" source="hid_86" target="splace_in_Basin_0"/>
+      <arc id="2753944467024" source="hid_87" target="pre_Toilet"/>
+      <arc id="2753943224080" source="hid_66" target="splace_in_Cabinet_Toilet_1"/>
+      <arc id="2753943220112" source="intplace_Toilet" target="hid_66"/>
+      <arc id="2753944638800" source="splace_in_Cupboard_Seat_1" target="hid_29"/>
+      <arc id="2753944467792" source="hid_62" target="pre_Maindoor"/>
+      <arc id="2753944960848" source="hid_6" target="pre_Cooktop"/>
+      <arc id="2753944468304" source="hid_69" target="pre_Seat"/>
+      <arc id="2753944640336" source="splace_in_Cupboard_Seat_1" target="hid_27"/>
+      <arc id="2753944636752" source="pre_Fridge" target="Fridge"/>
+      <arc id="2753944469328" source="hid_46" target="pre_Cupboard"/>
+      <arc id="2753944465232" source="intplace_Cabinet" target="hid_14"/>
+      <arc id="2753943216144" source="intplace_Seat" target="hid_61"/>
+      <arc id="2753944459600" source="hid_55" target="pre_Basin"/>
+      <arc id="2753943216656" source="intplace_Fridge" target="hid_83"/>
+      <arc id="2753943222864" source="hid_72" target="splace_in_Basin_2"/>
+      <arc id="2753944523408" source="hid_51" target="splace_in_Cupboard_4"/>
+      <arc id="2753943212688" source="intplace_Cupboard" target="hid_76"/>
+      <arc id="2753944519440" source="Cabinet" target="intplace_Cabinet"/>
+      <arc id="2753944466320" source="intplace_Fridge" target="hid_6"/>
+      <arc id="2753943221136" source="Seat" target="intplace_Seat"/>
+      <arc id="2753944468560" source="hid_63" target="pre_Toilet"/>
+      <arc id="2753944532368" source="intplace_Shower" target="hid_51"/>
+      <arc id="2753944465424" source="hid_87" target="splace_in_Basin_0"/>
+      <arc id="2753944532880" source="hid_45" target="sink0"/>
+      <arc id="2753944635280" source="hid_17" target="pre_Seat"/>
+      <arc id="2753944959376" source="splace_in_Cabinet_Toilet_1" target="hid_14"/>
+      <arc id="2753944458640" source="intplace_Cabinet" target="Shower"/>
+      <arc id="2753944467344" source="hid_39" target="pre_Cabinet"/>
+      <arc id="2753944466832" source="hid_48" target="pre_Fridge"/>
+      <arc id="2753944528912" source="intplace_Cooktop" target="hid_46"/>
+      <arc id="2753944637904" source="splace_in_Cupboard_4" target="hid_30"/>
+      <arc id="2753943220944" source="intplace_Seat" target="hid_62"/>
+      <arc id="2753943221456" source="Toilet" target="intplace_Toilet"/>
+      <arc id="2753943217488" source="intplace_Cupboard" target="hid_78"/>
+      <arc id="2753944468880" source="hid_78" target="pre_Fridge"/>
+      <arc id="2753943211792" source="intplace_Seat" target="hid_59"/>
+      <arc id="2753943209424" source="intplace_Cabinet" target="hid_17"/>
+      <arc id="2753944638928" source="hid_29" target="pre_Cupboard"/>
+      <arc id="2753944464848" source="intplace_Basin" target="hid_8"/>
+      <arc id="2753944832464" source="pre_Basin" target="Basin"/>
+      <arc id="2753944468432" source="hid_72" target="pre_Cabinet"/>
+      <arc id="2753944945616" source="hid_3" target="pre_Basin"/>
+      <arc id="2753944469456" source="hid_52" target="pre_Toaster"/>
+      <arc id="2753944958928" source="splace_in_Cabinet_Bed_1" target="hid_13"/>
+      <arc id="2753944466896" source="hid_49" target="pre_Maindoor"/>
+      <arc id="2753944523024" source="hid_52" target="splace_in_Cupboard_4"/>
+      <arc id="2753943216272" source="hid_67" target="splace_in_Shower_Toilet_0"/>
+      <arc id="2753943222480" source="intplace_Microwave" target="hid_72"/>
+      <arc id="2753944467664" source="hid_82" target="pre_Fridge"/>
+      <arc id="2753943216784" source="intplace_Fridge" target="hid_82"/>
+      <arc id="2753944468176" source="hid_76" target="pre_Cooktop"/>
+      <arc id="2753943208848" source="intplace_Basin" target="hid_6"/>
+      <arc id="2753944519568" source="Maindoor" target="intplace_Maindoor"/>
+      <arc id="2753944534224" source="intplace_Maindoor" target="hid_49"/>
+      <arc id="2753944530256" source="intplace_Maindoor" target="hid_48"/>
+      <arc id="2753944634768" source="splace_in_Seat_Shower_1" target="hid_17"/>
+      <arc id="2753943215568" source="hid_73" target="splace_in_Basin_2"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
